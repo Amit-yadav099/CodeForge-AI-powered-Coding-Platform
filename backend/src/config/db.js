@@ -1,5 +1,5 @@
 // here we condfigure our databse
-const mongoose=require('mongoose');
+const mongoose = require('mongoose');
 
 async function main(){
   await mongoose.connect(process.env.DB_CONNECT_STRING)
